@@ -1,0 +1,14 @@
+name = "Ring of Return"
+filename = "RingOfReturn-Forge-1.19.2-1.4.4.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "491445423c03db95adc4f9afb16b3dc1c4d8fea9"
+
+[update]
+[update.curseforge]
+file-id = 4000336
+project-id = 368129

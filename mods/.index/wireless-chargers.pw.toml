@@ -1,0 +1,14 @@
+name = "Wireless Chargers"
+filename = "wirelesschargers-1.0.7-forge-mc1.19.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/nCk7Sfz8/versions/XwLNbk5J/wirelesschargers-1.0.7-forge-mc1.19.jar"
+hash-format = "sha512"
+hash = "4765a2ecf81e2b43b99d41045b06afda1e8be7b9d64f770a7af317c66575ad21ed2f1326f3c81589472d8f616aa6316f26461efb4ac90af3a6e394e72b3a3d4a"
+
+[update]
+[update.modrinth]
+mod-id = "nCk7Sfz8"
+version = "XwLNbk5J"

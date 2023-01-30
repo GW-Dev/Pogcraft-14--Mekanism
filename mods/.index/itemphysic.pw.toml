@@ -1,0 +1,14 @@
+name = "ItemPhysic"
+filename = "ItemPhysic_FORGE_v1.6.6_mc1.19.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/aT8BzaOj/versions/xM8YkBJK/ItemPhysic_FORGE_v1.6.6_mc1.19.2.jar"
+hash-format = "sha512"
+hash = "16aa48e66d275921fb4123ede0b341132a5d75902c41910e3b13b6897d8409e6df3c06240916f8e2b4c234f84d2783d3a81df43a92c4b0376155557277f16dcb"
+
+[update]
+[update.modrinth]
+mod-id = "aT8BzaOj"
+version = "xM8YkBJK"

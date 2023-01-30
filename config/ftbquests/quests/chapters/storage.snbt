@@ -1,0 +1,329 @@
+{
+	id: "0673FB869087DEF4"
+	group: ""
+	order_index: 2
+	filename: "storage"
+	title: "Storage"
+	icon: "mekanism:personal_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["317B6C2F45E6F468"]
+			id: "0C578305A6B0694A"
+			tasks: [{
+				id: "73A9EC665D1A73B9"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [
+				{
+					id: "0681E92028FD2B06"
+					type: "item"
+					item: "storagedrawers:compacting_drawers_3"
+					count: 2
+				}
+				{
+					id: "3D0AFABE69B5110E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			shape: "diamond"
+			id: "317B6C2F45E6F468"
+			tasks: [{
+				id: "24D4899C21601AAE"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7AF278C48B620C95"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.5d
+			shape: "diamond"
+			dependencies: [
+				"32D56FFFF85C337D"
+				"5A61C21FB7211128"
+			]
+			id: "6B349C07178B1FD7"
+			tasks: [{
+				id: "05C476287DFC3BC0"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+			rewards: [{
+				id: "31DD2E94AF1A62E1"
+				type: "item"
+				item: "mekanism:block_lead"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -9.5d
+			shape: "diamond"
+			dependencies: [
+				"6B349C07178B1FD7"
+				"5A61C21FB7211128"
+			]
+			id: "3A4E986A8D98CEA6"
+			tasks: [{
+				id: "6A8BA1B657E2FA32"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+			rewards: [{
+				id: "3D5675FDB829B28F"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -11.5d
+			shape: "diamond"
+			dependencies: [
+				"3A4E986A8D98CEA6"
+				"5A61C21FB7211128"
+			]
+			id: "7FBDFF10759C3351"
+			tasks: [{
+				id: "047013C19385A607"
+				type: "item"
+				item: "mekanism:qio_drive_time_dilating"
+			}]
+			rewards: [{
+				id: "7FCAF558461E0BE3"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -14.0d
+			shape: "diamond"
+			dependencies: [
+				"7FBDFF10759C3351"
+				"5A61C21FB7211128"
+			]
+			id: "0533401DE3B43263"
+			tasks: [{
+				id: "43EA7AF69E23AC26"
+				type: "item"
+				item: "mekanism:qio_drive_supermassive"
+			}]
+			rewards: [{
+				id: "406F31D051BDE773"
+				type: "item"
+				item: "mekanism:qio_drive_time_dilating"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -13.0d
+			shape: "diamond"
+			dependencies: [
+				"32D56FFFF85C337D"
+				"5A61C21FB7211128"
+			]
+			id: "75D904B20981D5FA"
+			tasks: [{
+				id: "198D18174DC42B7F"
+				type: "item"
+				item: "mekanism:qio_drive_array"
+			}]
+			rewards: [{
+				id: "0BCEE62E18CC0D7C"
+				type: "item"
+				item: "mekanism:personal_barrel"
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			shape: "diamond"
+			dependencies: [
+				"32D56FFFF85C337D"
+				"5A61C21FB7211128"
+			]
+			id: "44E0E85687DDAEB5"
+			tasks: [{
+				id: "5A190680E8A8358D"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+			rewards: [{
+				id: "571F6A0072DFD120"
+				type: "item"
+				item: "mekanism:teleportation_core"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			shape: "diamond"
+			dependencies: [
+				"32D56FFFF85C337D"
+				"5A61C21FB7211128"
+			]
+			id: "168B7758ABC76212"
+			tasks: [{
+				id: "60173828B5DA4300"
+				type: "item"
+				item: "mekanism:qio_importer"
+			}]
+			rewards: [{
+				id: "78DBF01B69914717"
+				type: "item"
+				item: "minecraft:slime_block"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			shape: "diamond"
+			dependencies: [
+				"32D56FFFF85C337D"
+				"5A61C21FB7211128"
+			]
+			id: "45E1BA38640DBD78"
+			tasks: [{
+				id: "2A691BCBE3D464CC"
+				type: "item"
+				item: "mekanism:qio_exporter"
+			}]
+			rewards: [{
+				id: "5145804C151819C3"
+				type: "item"
+				item: "minecraft:piston"
+				count: 16
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			shape: "diamond"
+			dependencies: [
+				"32D56FFFF85C337D"
+				"5A61C21FB7211128"
+			]
+			id: "602714B54BA2329C"
+			tasks: [{
+				id: "259839BFF3E61210"
+				type: "item"
+				item: "mekanism:qio_redstone_adapter"
+			}]
+			rewards: [{
+				id: "484C68CAE9C9D232"
+				type: "item"
+				item: "immersiveengineering:wirecoil_redstone"
+				count: 16
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["320A8BE7F5B576EB"]
+			id: "4D459055E805559C"
+			tasks: [{
+				id: "5C5D61FC5D387BEF"
+				type: "item"
+				item: "mekanism:crafting_formula"
+			}]
+			rewards: [{
+				id: "52C877C42E1B3286"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			shape: "diamond"
+			id: "320A8BE7F5B576EB"
+			tasks: [{
+				id: "3FA4F203B6D7B6FA"
+				type: "item"
+				item: "mekanism:formulaic_assemblicator"
+			}]
+			rewards: [
+				{
+					id: "67A28FF658B11407"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6174C9054B3379D4"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 6
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -13.0d
+			shape: "diamond"
+			dependencies: [
+				"32D56FFFF85C337D"
+				"5A61C21FB7211128"
+			]
+			id: "120A254505F2F7ED"
+			tasks: [{
+				id: "3D44CB30ED893653"
+				type: "item"
+				item: "mekanism:portable_qio_dashboard"
+			}]
+			rewards: [{
+				id: "04C3AFDB35F4F18F"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			shape: "gear"
+			dependencies: [
+				"32D56FFFF85C337D"
+				"4D459055E805559C"
+			]
+			id: "5A61C21FB7211128"
+			tasks: [{
+				id: "2AC1134FEA7B64BD"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [{
+				id: "3D47BC946CE2669D"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+				count: 16
+			}]
+		}
+	]
+	quest_links: [ ]
+}

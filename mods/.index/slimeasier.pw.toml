@@ -1,0 +1,14 @@
+name = "Slimeasier"
+filename = "slimeasier_1.19.2-1.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "1929ad14a9ad2e40134aa8429efb293cc3ea9cb9"
+
+[update]
+[update.curseforge]
+file-id = 4077191
+project-id = 565005

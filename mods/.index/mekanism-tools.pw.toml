@@ -1,0 +1,14 @@
+name = "Mekanism: Tools"
+filename = "MekanismTools-1.19.2-10.3.6.475.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/tqQpq1lt/versions/PjBIIbzK/MekanismTools-1.19.2-10.3.6.475.jar"
+hash-format = "sha512"
+hash = "277ca8c7ce99f3f924c01a5f6084c0e8a36f2932f6ca015b32f37b32f9eb7b698a1820c923f8a9fe70615dda7287a759c8fe9d5a231ad2d47e0361fb82293ef8"
+
+[update]
+[update.modrinth]
+mod-id = "tqQpq1lt"
+version = "PjBIIbzK"

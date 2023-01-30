@@ -1,0 +1,14 @@
+name = "Carry On"
+filename = "carryon-forge-1.19.2-2.0.4.6.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/joEfVgkn/versions/67jN6bxd/carryon-forge-1.19.2-2.0.4.6.jar"
+hash-format = "sha512"
+hash = "4d05adb684c5cdb797390ed68644748182844246a4f75b93bfb6b4f58c37a147ce1cc536dec7d473529979d8e80a761e59b1553bb093ce33fcca952adb168931"
+
+[update]
+[update.modrinth]
+mod-id = "joEfVgkn"
+version = "67jN6bxd"

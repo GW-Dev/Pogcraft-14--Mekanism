@@ -1,0 +1,14 @@
+name = "Mekanism: Generators"
+filename = "MekanismGenerators-1.19.2-10.3.6.475.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/OFVYKsAk/versions/eRQ1BJdJ/MekanismGenerators-1.19.2-10.3.6.475.jar"
+hash-format = "sha512"
+hash = "776d907ec36ce9c54c9a8786ec846e3e6bf71adccdeeda5de89fc8934c50ea6229b03833f7af1a8c30a65bb7e0b906c66e5cad3de38baf7889fc39124a967042"
+
+[update]
+[update.modrinth]
+mod-id = "OFVYKsAk"
+version = "eRQ1BJdJ"

@@ -1,0 +1,14 @@
+name = "Bad Packets API"
+filename = "badpackets-forge-0.2.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/ftdbN0KK/versions/FVH3CFm8/badpackets-forge-0.2.1.jar"
+hash-format = "sha512"
+hash = "e89d9d72003e4d05b6a896da4be99e65d7f017ee24c3fedd50ed7f02eec4d05265fbcfd3ce6c3625ee8a4e0ae7d66c742fdd56dab62a348d527a414da5f605f5"
+
+[update]
+[update.modrinth]
+mod-id = "ftdbN0KK"
+version = "FVH3CFm8"

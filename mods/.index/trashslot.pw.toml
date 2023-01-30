@@ -1,0 +1,14 @@
+name = "TrashSlot"
+filename = "trashslot-forge-1.19-12.0.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/vRYk0bv7/versions/12.0.0-forge/trashslot-forge-1.19-12.0.0.jar"
+hash-format = "sha512"
+hash = "fd7a8683f2f564287a605d54474848bfa77d95e3055cf28ca6d987bbe31fc34d5fa6587aa361f3f757655be142df38cc08ccff19cfcfdcc417c100d443c84792"
+
+[update]
+[update.modrinth]
+mod-id = "vRYk0bv7"
+version = "6OzQ7Sk1"
